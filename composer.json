@@ -1,0 +1,17 @@
+{
+    "name": "rakshitbharat/laravel-mail-shoot-tracker",
+    "description": "A Laravel package to track if emails are being sent.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "RakshitBharat\MailShootTracker\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RakshitBharat\MailShootTracker\MailShootTrackerServiceProvider"
+            ]
+        }
+    }
+}
