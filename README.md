@@ -1,12 +1,24 @@
 # Laravel Mail Shoot Tracker
 
-A Laravel package to track if emails are being sent from your Laravel application. This package logs the details of every email sent, which can help in debugging and ensuring that emails are being dispatched as expected.
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/rakshitbharat/laravel-mail-shoot-tracker.svg?style=flat-square)](https://packagist.org/packages/rakshitbharat/laravel-mail-shoot-tracker)
+[![Total Downloads](https://img.shields.io/packagist/dt/rakshitbharat/laravel-mail-shoot-tracker.svg?style=flat-square)](https://packagist.org/packages/rakshitbharat/laravel-mail-shoot-tracker)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+
+Laravel Mail Shoot Tracker is a Laravel package that helps you track if emails are being sent from your Laravel application. This package logs the details of every email sent, which can help in debugging and ensuring that emails are being dispatched as expected.
+
+## Features
+
+- Automatically logs details of every sent email
+- Logs recipients and subject of the email
+- Seamless integration with Laravel's mail system
+- No additional configuration required
+- Easy to use and configure
 
 ## Installation
 
 You can install the package via Composer:
 
-```sh
+```bash
 composer require rakshitbharat/laravel-mail-shoot-tracker
 ```
 
